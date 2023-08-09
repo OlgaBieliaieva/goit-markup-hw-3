@@ -280,6 +280,7 @@ a,
   row-gap: 48px;
 }
 .gallery-list div {
+  padding: 32px 16px;
   text-align: start;
   border: 1px solid var(--accent);
   border-top: none;
