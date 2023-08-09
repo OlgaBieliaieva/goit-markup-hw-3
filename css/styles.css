@@ -75,8 +75,7 @@ list {
 }
 .hero {
   background-color: var(--dark);
-  color: var(--main-light);
-  font-weight: var(--text-bold);
+  color: var(--main-light);  
 }
 .hero-title {
   font-size: var(--title);
@@ -116,8 +115,7 @@ list {
   background-color: var(--main-light);
 }
 .section-title {
-  color: var(--dark);
-  font-weight: var(--text-bold);
+  color: var(--dark);  
   font-size: var(--subtitle);
   line-height: 1.11;
   letter-spacing: 0.02em;
