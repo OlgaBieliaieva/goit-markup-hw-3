@@ -189,6 +189,9 @@ a,
 .section-title {
   margin-bottom: 72px;
 }
+.service{
+  padding-bottom: 120px;
+}
 .team {
   padding: 120px 0;
   background-color: var(--light);
@@ -265,6 +268,7 @@ a,
 }
 .gallery-list {
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 .gallery-list div {
   text-align: start;
