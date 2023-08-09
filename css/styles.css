@@ -76,11 +76,13 @@ a,
   padding: 0 15px;
   margin: 0 auto;
 }
+.header {
+  border-bottom: 1px solid var(--accent);
+}
 .container-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid var(--accent);
+  align-items: center;  
 }
 .navigation {
   display: flex;
@@ -100,11 +102,11 @@ a,
   color: var(--dark);
 }
 .navigation-list {
-  display: flex;
-  padding: 24px 0;
+  display: flex;  
   gap: 40px;
 }
 .navigation-link {
+  padding: 24px 0;
   color: var(--dark);
   font-weight: var(--text-medium);
   letter-spacing: 0.02em;
@@ -140,7 +142,7 @@ a,
   text-align: center;
 }
 .hero-title {
-  width: 496px;
+  max-width: 496px;
   margin: 0 auto 48px;
   font-size: var(--title);
   line-height: 1.07;
@@ -148,6 +150,8 @@ a,
   letter-spacing: 0.02em;
 }
 .hero-button {
+  display: block;
+  min-width: 169px;
   padding: 16px 32px;
   background-color: var(--primary-brand);
   border: none;
@@ -198,9 +202,10 @@ a,
 }
 .team-card {
   background-color: var(--main-light);
+  border-radius: 0px 0px 4px 4px;
 }
 .description-wrapper {
-  padding: 32px 16px;
+  padding: 32px 0;
   text-align: center;
 }
 .section-title {
@@ -217,6 +222,8 @@ a,
   color: var(--main-light);
 }
 .logo-footer {  
+  display: inline-block;
+  margin-bottom: 16px;
   color: var(--primary-brand);
   font-family: var(--font-logo);
   font-weight: var(--text-extrabold);
@@ -234,7 +241,7 @@ a,
   text-transform: uppercase;
 }
 .footer-text {
-  margin-top: 16px;
+  
   width: 264px;
   color: var(--light);
   letter-spacing: 0.02em;
@@ -248,7 +255,7 @@ a,
 }
 .filter-button {
   padding: 12px 24px;
-  border: none;
+  border: 1px solid var(--accent);
   border-radius: 4px;
   background-color: var(--light);
   color: var(--primary-brand);
@@ -263,6 +270,7 @@ a,
 .filter-button:hover,
 .filter-button:focus,
 .filter-button:active {
+  border: 1px solid transparent;
   background-color: var(--hover-brand);
   color: var(--main-light);
 }
